@@ -1,0 +1,109 @@
+@media screen and (max-width: 350px) {
+    .honor-interest {
+        display: block;
+    }
+    .honor {
+        width: 100%;
+    }
+    .interests {
+        margin: 0;
+        width: 100%;
+    }
+    .education-and-skill {
+        display: block;
+    }
+    .education {
+        width: 100%;
+    }
+    .skill {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 450px) {
+    .hidden-reponsive {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 750px) {
+    .container {
+        width: 100vw;
+        padding: 20px 10px;
+        overflow: hidden;
+    }
+    .header {
+        display: block;
+    }
+    .header__right {
+        padding: 0;
+        margin-top: 10px;
+        border: none;
+    }
+    .project__container {
+        margin-left: 20px;
+    }
+    .project__context {
+        position: relative;
+        display: block;
+    }
+    .project__context:not(:first-child)::before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: -25px;
+        transform: translate(-50%);
+        border-bottom: 0.5px dashed black;
+        opacity: 0.5;
+        width: 80%;
+        margin: auto;
+    }
+    .project__context--title {
+        width: auto;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .project__context--title span {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+    .project__context--title h5 {
+        font-size: 15px;
+    }
+    .project__context--info h5 {
+        font-size: 11px;
+    }
+    .project__context--info h5:last-child {
+        font-size: 13px;
+    }
+    .context {
+        margin-left: 0;
+    }
+    .project__container {
+        padding-left: 0;
+        border: none;
+    }
+    .project__container::before {
+        display: none;
+    }
+    .col-line {
+        display: block;
+    }
+    .footer {
+        display: block;
+    }
+    .honor-interest {
+        width: 100%;
+    }
+    .footer .additional-information {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .honor-interest {
+        flex: 1;
+    }
+    .additional-information {
+        width: 40%;
+    }
+}
