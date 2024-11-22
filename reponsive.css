@@ -1,51 +1,51 @@
-@media screen and (max-width:350px) {   
-    .honor-interest{
+@media screen and (max-width: 350px) {
+    .honor-interest {
         display: block;
     }
-    .honor{
+    .honor {
         width: 100%;
     }
-    .interests{
+    .interests {
         margin: 0;
         width: 100%;
     }
-    .education-and-skill{
+    .education-and-skill {
         display: block;
     }
-    .education{
+    .education {
         width: 100%;
     }
-    .skill{
+    .skill {
         margin: 0;
     }
 }
-@media screen and (max-width:450px) {   
-    .hidden-reponsive{
+@media screen and (max-width: 450px) {
+    .hidden-reponsive {
         display: none !important;
     }
 }
-@media screen and (max-width:750px){
-    .container{
+@media screen and (max-width: 750px) {
+    .container {
         width: 100vw;
         padding: 20px 10px;
         overflow: hidden;
     }
-    .header{
-        display: block; 
+    .header {
+        display: block;
     }
-    .header__right{
+    .header__right {
         padding: 0;
         margin-top: 10px;
         border: none;
     }
-    .project__container{
+    .project__container {
         margin-left: 20px;
     }
-    .project__context{
+    .project__context {
         position: relative;
         display: block;
     }
-    .project__context:not(:first-child)::before{
+    .project__context:not(:first-child)::before {
         content: '';
         position: absolute;
         left: 50%;
@@ -56,54 +56,54 @@
         width: 80%;
         margin: auto;
     }
-    .project__context--title{
+    .project__context--title {
         width: auto;
         display: flex;
         align-items: center;
         margin-bottom: 10px;
     }
-    .project__context--title span{
+    .project__context--title span {
         margin-top: 0;
         margin-left: 10px;
     }
-    .project__context--title h5{
+    .project__context--title h5 {
         font-size: 15px;
     }
-    .project__context--info h5{
+    .project__context--info h5 {
         font-size: 11px;
     }
-    .project__context--info h5:last-child{
+    .project__context--info h5:last-child {
         font-size: 13px;
     }
-    .context{
+    .context {
         margin-left: 0;
     }
-    .project__container{
+    .project__container {
         padding-left: 0;
-        border:none;
+        border: none;
     }
-    .project__container::before{
+    .project__container::before {
         display: none;
     }
-    .col-line{
+    .col-line {
         display: block;
     }
-    .footer{
+    .footer {
         display: block;
     }
-    .honor-interest{
-        width: 100% ;
-    }
-    .footer .additional-information{
+    .honor-interest {
         width: 100%;
-    }  
+    }
+    .footer .additional-information {
+        width: 100%;
+    }
 }
 
-@media screen and (max-width:800px) {
-    .honor-interest{
+@media screen and (max-width: 800px) {
+    .honor-interest {
         flex: 1;
     }
-    .additional-information{
+    .additional-information {
         width: 40%;
     }
 }
